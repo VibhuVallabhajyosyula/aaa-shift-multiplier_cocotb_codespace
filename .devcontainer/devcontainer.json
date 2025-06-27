@@ -1,0 +1,9 @@
+
+{
+  "name": "Cocotb Simulator",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/cocotb/cocotb-devcontainer-feature:latest": {}
+  },
+  "postCreateCommand": "pip install cocotb && apt-get update && apt-get install -y iverilog gtkwave"
+}
